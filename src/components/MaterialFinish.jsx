@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import Container from "react-bootstrap/Container";
 import Card from "react-bootstrap/Card";
 import Image from "react-bootstrap/Image";
+import LazyImage from "../lazyLoading/LazyImage";
 import { fetchData } from "../api/data";
 
 const MaterialFinish = () => {
@@ -24,11 +25,7 @@ const MaterialFinish = () => {
               key={item.id}
               className="bg-[#F7F7F7] rounded-2xl border-none w-72 h-80 sm:w-44 sm:h-56"
             >
-              <Card.Img
-                variant="top"
-                src={item.image}
-                className="rounded-t-2xl"
-              />
+              <LazyImage src={item.image} className="rounded-t-2xl" />
               <Card.Body className="flex flex-col justify-between items-start text-start sm:justify-center sm:px-3 sm:py-2 sm:m-0">
                 <Card.Title className="text-[#001C30] font-semibold text-xl sm:text-sm sm:py-0">
                   {item.name}

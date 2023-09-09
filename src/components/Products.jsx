@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import Container from "react-bootstrap/Container";
 import Card from "react-bootstrap/Card";
+import LazyImage from "../lazyLoading/LazyImage";
 import { fetchData } from "../api/data";
 
 const Products = () => {
@@ -24,9 +25,9 @@ const Products = () => {
         {data.materialType?.length > 0 &&
           data.materialType.map((item) => (
             <Card key={item.id} className="border-none">
-              <Card.Img
+              <LazyImage
                 src={item.image}
-                className="w-80 h-96 sm:w-56 sm:h-60"
+                className="rounded w-80 h-96 sm:w-56 sm:h-60"
               />
               <Card.Body className="d-flex flex-column justify-content-center align-items-center text-center">
                 <Card.Title className="text-[#001C30] font-medium text-xl m-0 sm:text-sm ">

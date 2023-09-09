@@ -3,6 +3,7 @@ import Container from "react-bootstrap/Container";
 import Badge from "react-bootstrap/Badge";
 import Card from "react-bootstrap/Card";
 import Image from "react-bootstrap/Image";
+import LazyImage from "../lazyLoading/LazyImage";
 import { fetchData } from "../api/data";
 
 const Catalogue = () => {
@@ -73,14 +74,14 @@ const Catalogue = () => {
                   className="border-none w-72 h-96 sm:w-44 sm:h-60 my-4 md:my-2"
                 >
                   <div className="relative">
-                    <Card.Img
+                    <LazyImage
                       src={item.image}
-                      className="w-80 h-96 sm:w-44 sm:h-60"
+                      className={"rounded w-80 h-96 sm:w-44 sm:h-60"}
                     />
                     <div className="absolute rounded-full top-8 left-8 w-24 h-24 sm:w-14 sm:h-14 sm:top-6 sm:left-2">
-                      <Image
+                      <LazyImage
                         src={item.SmallImage}
-                        className="rounded-full object-cover"
+                        className={"rounded-full object-cover"}
                       />
                     </div>
                     <div className="absolute top-32 left-14 sm:top-20 sm:left-3">
@@ -99,7 +100,7 @@ const Catalogue = () => {
                         </div>
                       </section>
                     )}
-                    <div className="absolute bottom-0 left-0 d-flex justify-content-center align-items-center bg-[#03C988] rounded-bl text-white font-semibold text-sm w-36 h-8 sm:font-medium sm:text-xs sm:w-28 sm:h-6">
+                    <div className="absolute bottom-[6px] left-0 d-flex justify-content-center align-items-center bg-[#03C988] rounded-bl text-white font-semibold text-sm w-36 h-8 sm:font-medium sm:text-xs sm:w-28 sm:h-6">
                       {item.productCount}+ products
                     </div>
                   </div>
