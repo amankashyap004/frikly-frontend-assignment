@@ -1,0 +1,218 @@
+{
+  "materialType": [
+    {
+      "id": 1,
+      "image": "assets/materialType/Laminates&Sunmica.jpg",
+      "name": "Laminates &  Sunmica",
+      "offerText": "Up to 40% OFF on All Designs",
+      "url": "",
+      "description": "Laminates and Sunmica are prime materials used in interior design and furniture manufacturing. These are thin, multi-layered overlays that are used to provide a decorative and durable surface for furniture, cabinets, countertops, and other interior surfaces. The top layer of laminates and mica includes printed decorative paper, and the bottom layers are typically kraft paper! These layered materials are preferred for their aesthetic appeal, durability, and easy maintenance. You can select laminates and sunmica from a wide range of designs, colors, textures, and patterns that allow for versatility in design choices!"
+    },
+    {
+      "id": 2,
+      "image": "assets/materialType/PVCLaminates.jpg",
+      "name": "PVC Laminates",
+      "offerText": "Huge Savings: 32%+ OFF",
+      "url": "",
+      "description": "PVC laminates are a decorative surfacing material that is super popular in interior design and furniture industries. Crafted from polyvinyl chloride (PVC) resin, these sheets are used to cover various surfaces like furniture, cabinets, countertops, and wall panels, to improve their appearance and durability. PVC laminates are water-resistant, versatile, and cost-effective solutions to improve the aesthetics of interiors"
+    },
+    {
+      "id": 3,
+      "image": "assets/materialType/Acryliclaminates.jpg",
+      "name": "Acrylic laminates",
+      "offerText": "Whopping 40% OFF",
+      "url": "",
+      "description": "crylic laminates are a trendy surfacing material used for various interior applications like design and construction. Acrylic sheets or acrylic panels are synthetic polymers, made from polymethyl methacrylate (PMMA), which is a transparent thermoplastic. Acrylic laminates are a solid, durable, and versatile material and can be selected from various colors, patterns, and finishes. Acrylic sheets are lightweight, scratch-resistant, UV and impact resistant, and are very easy to maintain!"
+    },
+    {
+      "id": 4,
+      "image": "assets/materialType/InnerMica.jpg",
+      "name": "Inner Mica",
+      "offerText": "Grab Savings up to 34%",
+      "url": "",
+      "description": "Sunmica or mica is a commonly used term for laminated decorative veneer sheets, especially in India and some other South Asian countries. Mica laminates are decorative materials that are widely used for interior decoration and furniture surfaces. Inner mica sheets are an attractive material that is added to the inner parts/sides of furniture, cabinets, shelves, tabletops, doors, and more for protection and aesthetic purposes!"
+    }
+  ],
+  "catalogue": [
+    {
+      "id": 1,
+      "image": "assets/catalogues/DesignersChoice.jpg",
+      "SmallImage": "assets/catalogues/DesignersChoiceEllipse.png",
+      "name": "Designer's choice",
+      "materialType": "Laminates &  Sunmica",
+      "tag": "Trending",
+      "productCount": 100
+    },
+    {
+      "id": 2,
+      "image": "assets/catalogues/Marble&Stone.png",
+      "SmallImage": "assets/catalogues/Marble&StoneEllipse.png",
+      "name": "Marble & Stone",
+      "materialType": "Laminates &  Sunmica",
+      "tag": "Sale",
+      "productCount": 150
+    },
+    {
+      "id": 3,
+      "image": "assets/catalogues/Wooden.png",
+      "SmallImage": "assets/catalogues/WoodenEllipse.png",
+      "name": "Wooden",
+      "materialType": "Laminates &  Sunmica",
+      "tag": "",
+      "productCount": 180
+    },
+    {
+      "id": 4,
+      "image": "assets/catalogues/Veneer.png",
+      "SmallImage": "assets/catalogues/VeneerEllipse.png",
+      "name": "Veneer",
+      "materialType": "PVC Laminates",
+      "tag": "",
+      "productCount": 250
+    },
+    {
+      "id": 5,
+      "image": "assets/catalogues/PlainSolidColor.png",
+      "SmallImage": "assets/catalogues/PlainSolidColorEllipse.png",
+      "name": "Plain Solid Color",
+      "materialType": "PVC Laminates",
+      "tag": "New",
+      "productCount": 750
+    },
+    {
+      "id": 6,
+      "image": "assets/catalogues/SPARKLE.png",
+      "SmallImage": "assets/catalogues/SPARKLEEllipse.png",
+      "name": "SPARKLE",
+      "materialType": "Acrylic laminates",
+      "tag": "",
+      "productCount": 40
+    },
+    {
+      "id": 7,
+      "image": "assets/catalogues/Metalli.png",
+      "SmallImage": "assets/catalogues/MetalliEllipse.png",
+      "name": "Metallic",
+      "materialType": "Laminates &  Sunmica",
+      "tag": "",
+      "productCount": 60
+    },
+    {
+      "id": 8,
+      "image": "assets/catalogues/ColoredVENEER.png",
+      "SmallImage": "assets/catalogues/ColoredVENEEREllipse.png",
+      "name": "Colored VENEER",
+      "materialType": "Laminates &  Sunmica",
+      "tag": "Trending",
+      "productCount": 10
+    },
+    {
+      "id": 9,
+      "image": "assets/catalogues/Mirror.png",
+      "SmallImage": "assets/catalogues/MirrorEllipse.png",
+      "name": "Mirror",
+      "materialType": "Laminates &  Sunmica",
+      "tag": "",
+      "productCount": 5
+    },
+    {
+      "id": 10,
+      "image": "assets/catalogues/FOIL.png",
+      "SmallImage": "assets/catalogues/FOILEllipse.png",
+      "name": "FOIL",
+      "materialType": "Laminates &  Sunmica",
+      "tag": "Sale",
+      "productCount": 8
+    },
+    {
+      "id": 11,
+      "image": "assets/catalogues/Designer.png",
+      "SmallImage": "assets/catalogues/DesignerEllipse.png",
+      "name": "Designer",
+      "materialType": "Laminates &  Sunmica",
+      "tag": "Sale",
+      "productCount": 90
+    },
+    {
+      "id": 12,
+      "image": "assets/catalogues/RUSTIC.png",
+      "SmallImage": "assets/catalogues/RUSTICEllipse.png",
+      "name": "RUSTIC",
+      "materialType": "Laminates &  Sunmica",
+      "tag": "",
+      "productCount": 10
+    }
+  ],
+  "materialFinish": [
+    {
+      "id": 1,
+      "image": "assets/materialFinish/fluted.png",
+      "name": "Fluted",
+      "offerText": "Ideal for CounterTops, Save ₹520/Sheet",
+      "url": ""
+    },
+    {
+      "id": 2,
+      "image": "assets/materialFinish/glossy.png",
+      "name": "Glossy",
+      "offerText": "Discounts as high as 25% on your first order",
+      "url": ""
+    },
+    {
+      "id": 3,
+      "image": "assets/materialFinish/SF&Matt.png",
+      "name": "SF & Matt",
+      "offerText": "Massive Savings of Up to 18% on your first order",
+      "url": ""
+    },
+    {
+      "id": 4,
+      "image": "assets/materialFinish/Textured.png",
+      "name": "Textured",
+      "offerText": "Cash Savings of Up to ₹500/Sheet",
+      "url": ""
+    },
+    {
+      "id": 5,
+      "image": "assets/materialFinish/PU&Decofinish.png",
+      "name": "PU & Deco finish",
+      "offerText": "Easy-to-Install, Grab Attractive Designs at ₹ 1,571 / Sheet",
+      "url": ""
+    },
+    {
+      "id": 6,
+      "image": "assets/materialFinish/SilkyMatt.png",
+      "name": "Silky Matt",
+      "offerText": "Starting at Just ₹ 1,671 / Sheet on your first order",
+      "url": ""
+    },
+    {
+      "id": 7,
+      "image": "assets/materialFinish/VeneerFinish.png",
+      "name": "Veneer Finish",
+      "offerText": "Impact-Resistant Finishes, Starting at just ₹ 1,370 / Sheet",
+      "url": ""
+    },
+    {
+      "id": 8,
+      "image": "assets/materialFinish/LeatherFinish.png",
+      "name": "Leather Finish",
+      "offerText": "Cash Savings as High as ₹522 /Sheet",
+      "url": ""
+    },
+    {
+      "id": 9,
+      "image": "assets/materialFinish/ZeromattZeroDry.png",
+      "name": "Zero matt Zero Dry",
+      "offerText": "Save Up to ₹ 499 /Sheet on your first order",
+      "url": ""
+    },
+    {
+      "id": 10,
+      "image": "assets/materialFinish/Antifingerprint.png",
+      "name": "Anti fingerprint",
+      "offerText": "Smudge-Proof Clean Designs, Get Up to 30% OFF",
+      "url": ""
+    }
+  ]
+}
