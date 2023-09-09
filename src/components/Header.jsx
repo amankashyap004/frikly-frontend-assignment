@@ -104,7 +104,7 @@ const Header = () => {
                   id="basic-addon2"
                   className="py-0 px-3  cursor-pointer bg-[#22333B] border-[1px] border-[#22333B]"
                 >
-                  <Image src="/assets/header/searchIcon.png" />
+                  <Image src="./assets/header/searchIcon.png" />
                 </InputGroup.Text>
               </InputGroup>
             </Nav>
@@ -133,7 +133,7 @@ const Header = () => {
                 id="basic-addon2"
                 className="w-10 h-10 cursor-pointer !rounded-full bg-[#22333B] border-[1px] border-[#22333B]"
               >
-                <Image src="/assets/header/searchIcon.png" />
+                <Image src="./assets/header/searchIcon.png" />
               </InputGroup.Text>
             </InputGroup>
           </Nav>

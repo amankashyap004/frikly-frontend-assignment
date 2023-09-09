@@ -16,21 +16,21 @@ const Footer = () => {
         >
           <section className="flex justify-content-start align-items-start md:py-3">
             <div className="mr-2 mt-2 md:mr-4">
-              <Image src="/assets/footer/iconPhone.png" />
+              <Image src="./assets/footer/iconPhone.png" />
             </div>
             <div className="d-flex flex-column justify-content-start align-items-start">
               <span className="text-white font-medium mb-2">
                 Transform your Home
               </span>
               <div className="d-flex justify-content-center align-items-center">
-                <Image src="/assets/footer/pyaStore1.png" className="mr-2" />
-                <Image src="/assets/footer/pyaStore2.png" />
+                <Image src="./assets/footer/pyaStore1.png" className="mr-2" />
+                <Image src="./assets/footer/pyaStore2.png" />
               </div>
             </div>
           </section>
           <section className="d-flex justify-content-center align-items-start md:py-3">
             <div className="mr-2 mt-2 md:mr-4">
-              <Image src="/assets/footer/envelope.png" />
+              <Image src="./assets/footer/envelope.png" />
             </div>
             <div className="d-flex flex-column justify-content-start align-items-start">
               <span className="text-white font-medium mb-2">
@@ -46,7 +46,7 @@ const Footer = () => {
                     id="basic-addon2"
                     className="p-0 cursor-pointer"
                   >
-                    <Image src="/assets/footer/Submit.png" />
+                    <Image src="./assets/footer/Submit.png" />
                   </InputGroup.Text>
                 </InputGroup>
               </div>
@@ -54,7 +54,7 @@ const Footer = () => {
           </section>
           <section className="d-flex justify-content-center align-items-start md:py-3">
             <div className="mr-2 mt-2 md:mr-4">
-              <Image src="/assets/footer/telephone.png" />
+              <Image src="./assets/footer/telephone.png" />
             </div>
             <div className="d-flex flex-column justify-content-start align-items-start">
               <span className="text-white font-medium mb-2">
@@ -65,13 +65,13 @@ const Footer = () => {
               </span>
               <div className="d-flex flex-column justify-content-center align-items-center">
                 <div className="d-flex justify-content-center align-items-center mb-2">
-                  <Image src="/assets/footer/whatsappLogo.png" />
+                  <Image src="./assets/footer/whatsappLogo.png" />
                   <span className="text-white font-medium ml-2">
                     +91-8035388980
                   </span>
                 </div>
                 <div className="d-flex justify-content-center align-items-center">
-                  <Image src="/assets/footer/callSharp.png" />
+                  <Image src="./assets/footer/callSharp.png" />
                   <span className="text-white font-medium ml-2">
                     +91-8035388980
                   </span>
@@ -95,10 +95,10 @@ const Footer = () => {
                 create the comforting ambiance of home.
               </p>
               <div className="d-flex justify-content-center align-items-center gap-4">
-                <Image src="/assets/footer/socialMediaIcon1.png" />
-                <Image src="/assets/footer/socialMediaIcon2.png" />
-                <Image src="/assets/footer/socialMediaIcon3.png" />
-                <Image src="/assets/footer/socialMediaIcon4.png" />
+                <Image src="./assets/footer/socialMediaIcon1.png" />
+                <Image src="./assets/footer/socialMediaIcon2.png" />
+                <Image src="./assets/footer/socialMediaIcon3.png" />
+                <Image src="./assets/footer/socialMediaIcon4.png" />
               </div>
             </section>
             <section className="d-flex flex-column justify-content-start align-items-start md:mt-8">
